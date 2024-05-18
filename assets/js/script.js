@@ -66,7 +66,9 @@ select.addEventListener("click", function () { elementToggleFunc(this); });
 // add event in all select items
 for (let i = 0; i < selectItems.length; i++) {
   selectItems[i].addEventListener("click", function () {
-
+    // console.log(filterBtn[7]);
+    // console.log(i);
+    // if (i > 7) filterBtn[7].classList.remove("active");
     let selectedValue = this.innerText.toLowerCase();
     selectValue.innerText = this.innerText;
     elementToggleFunc(select);
@@ -100,7 +102,7 @@ let lastClickedBtn = filterBtn[0];
 for (let i = 0; i < filterBtn.length; i++) {
 
   filterBtn[i].addEventListener("click", function () {
-
+    console.log(filterBtn, filterBtn[i]);
     let selectedValue = this.innerText.toLowerCase();
     selectValue.innerText = this.innerText;
     filterFunc(selectedValue);
@@ -157,3 +159,4 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+

@@ -933,12 +933,21 @@ main {
 
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
+
+
+
 .project-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
   margin-bottom: 10px;
 }
+
+ol.project-list {
+  font-size: var(--fs-6);
+  margin-left: 45px;
+}
+
 
 .project-item { display: none; }
 

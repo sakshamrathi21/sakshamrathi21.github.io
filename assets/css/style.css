@@ -773,7 +773,12 @@ main {
  */
 
 .timeline { margin-bottom: 30px; }
-
+.portfolio .title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
 .timeline .title-wrapper {
   display: flex;
   align-items: center;

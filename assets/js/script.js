@@ -159,4 +159,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+document.getElementById("resumeButton").addEventListener("click", function () {
+  // Open the resume in a new tab
+  window.open("./assets/resumes/Saksham_Rathi_Resume.pdf", "_blank");
+
+  // Keep the current tab at the "About" section
+  document.querySelectorAll('.navbar-link').forEach(link => link.classList.remove('active'));
+  document.querySelector('[data-page="about"]').classList.add('active');
+});
+
 

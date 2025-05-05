@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a3418e98.css",
-    "main.js": "/static/js/main.a5fa816e.js",
+    "main.js": "/static/js/main.5d1b0f8e.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.f6f5b629.chunk.js": "/static/js/487.f6f5b629.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/saksham_personal.png": "/static/media/saksham_personal.a1ecab169a268787a1a9.png",
     "static/media/iitb.png": "/static/media/iitb.bfc6f12ffc84d92500e7.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/static/media/resume.0b2ffe81d4254d43a81c.pdf",
+    "static/media/resume.pdf": "/static/media/resume.c97f69df8a3d78bdb55c.pdf",
     "static/media/amazon.jpg": "/static/media/amazon.b7407f00d85cd6fa603e.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -22,7 +22,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.a3418e98.css.map": "/static/css/main.a3418e98.css.map",
-    "main.a5fa816e.js.map": "/static/js/main.a5fa816e.js.map",
+    "main.5d1b0f8e.js.map": "/static/js/main.5d1b0f8e.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.f6f5b629.chunk.js.map": "/static/js/487.f6f5b629.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.a3418e98.css",
-    "static/js/main.a5fa816e.js"
+    "static/js/main.5d1b0f8e.js"
   ]
 }

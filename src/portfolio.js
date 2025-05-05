@@ -322,61 +322,48 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements 🏆 "),
+  // subtitle:
+  //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+      title: "Academic",
+      descBullets: [
+        "Secured All India Rank 18 in Joint Entrance Examination Advanced among 250,000 selected students (2022)",
+        "Awarded the Institute Academic Prize for being among the top 20 out of 1400 students in first year (2023)",
+        "Achieved 10 Semester Performance index (SPI) by scoring a perfect grade in the Spring Semester of first year (2023)",
+        "Recipent of the Kishore Vaigyanik Protsahan Yojana, a coveted fellowship by the Department of Science and Technology, Government of India by securing All India Ranks 24 and 33 in the SX and the SA streams (2022, 2021)",
+        "Awarded the NTSE Scholarship after a two-tier merit based procedure by NCERT, Government of India (2020)",
+        "Secured Department Rank 12 in a batch of 174 students, in Computer Science and Engineering, IIT Bombay (2023)",
+        "Received Advanced Performer (AP) Grade for being in the top 1% students in a Calculus Course (2023)",
+        "Secured All India Rank 321 in Joint Entrance Examination Main among 900,000 students (2022)",
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+      title: "Olympiads",
+      descBullets: [
+        "Among the top 26 students to clear the Indian National Astronomy Olympiad (INAO) and selected to attend the Orientation-Cum-Selection Camp for Internaional Astronomy Olympiad (IOAA) (2022)",
+        "Selected among the top 40 students to clear the Indian National Junior Science Olympiad (INJSO) and selected to attend the Orientation-Cum-Selection Camo for International Junior Science Olympiad (IJSO) (2020)",
+        "Among the top 300 students selected for the Indian National Physics Olympiad conducted by HBCSE (2022)",
+        "Selected among the top 300 students for the Indian National Mathematics Olympiad, HBCSE (2020)",
+        "Selected to participate in the Academic Camp conducted by Delhi Public School Society by securing All India Ranks 4 and 3 in the final and primary rounds of Science and Mathematics Talent Examination (SMTE) (2019)",
+        "Attended the prestigious National Camp of Vidyarthi Vigyan Manthan (VVM) and excelled by securing the First Rank in the West Zone as well as the State Level Camp, showcasing outstanding performance and dedication (2017)",
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+      title: "Extracurriculars",
+      descBullets: [
+        "Received the Excellence in CSE Teaching Assistantship Award for the Software Systems Lab Course (2024)",
+        "Finished in the top 60 teams at Limestone Data Challenge conducted by Tower Research Capital (2024)",
+        "Engineered a manually controlled robot, imbued with the ability to navigate through a diverse array of obstacles while participating in the prestigious XLR8 Competition, the Robotics Club of IIT Bombay",
+        "Secured third rank in Rajmata Gayatri Devi National Inter-School Verbattle Debate Competition",
+        "Secured second rank in Verbattle Debate Competition conducted by Delhi Public School, Jodhpur",
+        "Appointed as a Lok Sabha Delegate during a Model United Nations session, which serves as a platform aimed at fostering political discourse and encouraging the exchange of thoughtful ideas of international affairs",
       ]
-    }
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section

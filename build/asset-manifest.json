@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c9f9ed1f.css",
-    "main.js": "/static/js/main.09f2a174.js",
-    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.4c9416cb.chunk.js": "/static/js/64.4c9416cb.chunk.js",
-    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.5001633e.chunk.js": "/static/js/769.5001633e.chunk.js",
+    "main.js": "/static/js/main.2937d88d.js",
+    "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
+    "static/js/487.f6f5b629.chunk.js": "/static/js/487.f6f5b629.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.ce65541c.chunk.js": "/static/js/990.ce65541c.chunk.js",
     "static/media/saksham_personal.png": "/static/media/saksham_personal.a1ecab169a268787a1a9.png",
     "static/media/iitb.png": "/static/media/iitb.bfc6f12ffc84d92500e7.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -25,14 +25,14 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.c9f9ed1f.css.map": "/static/css/main.c9f9ed1f.css.map",
-    "main.09f2a174.js.map": "/static/js/main.09f2a174.js.map",
-    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
-    "64.4c9416cb.chunk.js.map": "/static/js/64.4c9416cb.chunk.js.map",
-    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
-    "769.5001633e.chunk.js.map": "/static/js/769.5001633e.chunk.js.map"
+    "main.2937d88d.js.map": "/static/js/main.2937d88d.js.map",
+    "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
+    "487.f6f5b629.chunk.js.map": "/static/js/487.f6f5b629.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.ce65541c.chunk.js.map": "/static/js/990.ce65541c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9f9ed1f.css",
-    "static/js/main.09f2a174.js"
+    "static/js/main.2937d88d.js"
   ]
 }

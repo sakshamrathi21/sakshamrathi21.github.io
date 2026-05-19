@@ -81,6 +81,26 @@ MathJax.Hub.Config({
         Winter 2025, North Moore Trading Team, Gurugram
     </p>
     <ul>
+        <li>
+            Analyzed trade data feeds received from a crypto exchange across multiple IP addresses, identifying and prioritizing better-performing connections to the firm's quote server
+        </li>
+        <li>
+            Improved connection reliability by evaluating and comparing latency and stability across exchange IPs, routing traffic through the most consistent endpoints for real-time market data
+        </li>
+        <li>
+            Integrated hardware timestamping into OpenSSL connections to achieve higher timing precision for incoming market data packets
+        </li>
+    </ul>
+</li>
+
+<li>
+    <p>
+        <b><a href="https://bharatgen.com" target="_blank" rel="noopener noreferrer">BharatGen</a> - Applied Scientist Internship</b></p>
+    </p>
+    <p>
+        Summer 2026, Mumbai
+    </p>
+    <ul>
     </ul>
 </li>
 
@@ -113,11 +133,27 @@ MathJax.Hub.Config({
 <ul>
 <li>
     <p>
-        <b>Bachelor's Thesis Project - Benchmarking and Performance Analysis of LLM Inference Systems</b></p>
+        <b>Bachelor's Thesis Project - Requests of a Feather Must Flock Together: Batch Size vs. Prefix Homogeneity in LLM Inference</b></p>
     </p>
     <p>
         2025-26, <a href="https://www.cse.iitb.ac.in/~mythili/" target="_blank" rel="noopener noreferrer">Prof. Mythili Vutukuru</a>
     </p>
+    <p>
+    <a href="https://arxiv.org/abs/2605.06046" download>[arXiv]</a> | 
+    <a href="docs/CS496_Report.pdf" download>[Report]</a> | 
+    <a href="docs/btp_stage_2_presentation.pdf" download>[Presentation]</a>
+</p>
+    <ul>
+        <li>
+            Designed Feather, a prefix-aware LLM inference scheduler using reinforcement learning to balance batch size and prefix homogeneity, achieving 2-10x higher throughput over state-of-the-art baselines (vLLM, SGLang) integrated into both frameworks
+        </li>
+        <li>
+            Built the Chunked Hash Tree (CHT), a lightweight data structure replacing expensive radix-tree traversals for prefix detection, reducing CPU scheduling overhead by up to 1000x while keeping it under 1% of GPU execution time
+        </li>
+        <li>
+            Showed through experiments that smaller, prefix-homogeneous batches outperform larger heterogeneous ones, and that even a single divergent request can cut decode throughput by ~2×, motivating the core design of Feather
+        </li>
+    </ul>
 </li>
 
 <li>
